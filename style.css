@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+
+.controls {
+  background-color: #222;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 0 10px #000;
+}
+
+.controls label {
+    color: white;
+    font-size: 14px;
+}
+.controls button {
+  color: black;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.canvas-container {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+canvas {
+  background-color: #fff;
+  border-radius: 6px;
+  display: block;
+}
